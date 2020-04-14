@@ -17,7 +17,7 @@
           "keyVault": {
           "id": "/subscriptions/e9323b12-8e1e-4dde-9d38-fbdd05cd7eaf/resourceGroups/keyvault_RG/providers/Microsoft.KeyVault/vaults/antskeyvault"
           },
-          "secretName": "VMPassword"
+          "secretName": "VMPassword2"
       }
       
     }
