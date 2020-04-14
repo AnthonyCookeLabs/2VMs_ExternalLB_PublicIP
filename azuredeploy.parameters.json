@@ -3,16 +3,23 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "storageAccountName": {
-        "value": "GEN-UNIQUE"
+        "value": "Antsstorage1712"
       },
       "adminUsername": {
-        "value": "admin123"
-      },
-      "adminPassword": {
-        "value": "Admin123_!"
+        "value": "anthonycooke"
+        
       },
       "dnsNameforLBIP": {
-        "value": "GEN-UNIQUE"
+        "value": "antspublicip1712"
+      },
+     "adminPassword": {
+        "reference": {
+          "keyVault": {
+          "id": "/subscriptions/e9323b12-8e1e-4dde-9d38-fbdd05cd7eaf/resourceGroups/keyvault_RG/providers/Microsoft.KeyVault/vaults/antskeyvault"
+          },
+          "secretName": "VMPassword"
       }
+      
     }
   }
+}
